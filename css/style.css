@@ -1,0 +1,70 @@
+
+.top-bar{
+    background-color: #262336;
+}
+
+    .logo img{
+        margin-bottom: 20%;
+        margin-top: 20%;
+        width: 60%;
+        border-radius: 10%;
+        margin-left: 30%;
+    }
+    
+
+.logoTitle {
+    align-content: center;
+}
+
+.logoTitle h3{
+    font-size: 25px;
+    margin: 0;
+    font-weight: bolder;
+    background: #CECDD3;
+    background: linear-gradient(to bottom, #CECDD3 0%, #726F83 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logoTitle span{
+    font-size: 120%;
+}
+
+.logoTitle p{
+    margin: 0;
+    font-weight: bolder;
+    background: #CECDD3;
+    background: linear-gradient(to bottom, #CECDD3 0%, #726F83 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navigation {
+    text-align: right;
+    padding-top: 5%;
+    align-content: center;
+}
+
+.navigation ul{
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline;
+    padding-right: 3%;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: #68647d;
+}
+
+@media (min-width: 1860px){
+    .top-bar{
+        font-size: xx-large;
+    }
+
+    .logoTitle h3{
+        font-size: 60px;
+    }
+}
