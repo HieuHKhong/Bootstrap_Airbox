@@ -280,3 +280,38 @@ body {
     font-size: large;
     font-weight: bold;
 }
+
+.bottom-bar {
+    padding-top: 2%;
+    background-color: #1a1921;
+    padding-bottom: 2%;
+    color: #444153;
+}
+
+.bottom-bar span{
+    font-size: larger;
+    font-weight: bold;
+    color: #6f6c89;
+}
+
+.bottom-bar .logoimgbottom img{
+    width: 40%;
+    margin-left: 10%;
+    border-radius: 15%;
+}
+
+.bottomTitle {
+    margin-left: -7%;
+}
+
+.copyright {
+    align-content: center;
+    text-align: left;
+    margin-right: 10%;
+    margin-left: -5%
+}
+
+.socialLinks {
+    align-content: center;
+    text-align: right;
+}
